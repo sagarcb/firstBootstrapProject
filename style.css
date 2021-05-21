@@ -1,0 +1,57 @@
+#head-nav{
+    height: 25px;
+}
+
+.DropDown{
+    height: 50px;
+    background-color: #28a745;
+    align-items: center;
+    align-content: center;
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+.btn.btn-secondary.dropdown-toggle{
+    background-color: transparent;
+    border-color: #28a745;
+}
+
+.card {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.col-md-3:hover .card {
+  opacity: 0.6;
+}
+#button1{
+    opacity: 1;
+}
+#button1:hover{
+    background-color: aqua;
+    color: black;
+    font-style: bold;
+}
+#cartbtn:hover{
+    opacity: 0.6;
+}
+#buynowbtn:hover{
+    opacity: 0.6;
+}
+
+.center{
+width: 150px;
+  margin: 40px auto;
+  
+}
+
+
